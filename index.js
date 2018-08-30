@@ -33,16 +33,19 @@ canvas.addEventListener('click', turnRed)
 // Add an event listener to div tags so when clicked the brush color is saved.
 //document.getElementsByClassName('brush')[0].style[0]
 
-// let saveCurrentColor = function(event){
-//   //store the element that was clicked in brush
-//   let brush = event.target
-//   //save the
-//   let brushColor = brush[0].style[0]
-//   let currentColor =
-// }
-
-// let paintBrushGroup = document.getElementsByClassName('paintbrush-group')[0]
-// paintBrushGroup.addEventListener('click', saveCurrentColor)
+let saveCurrentColor = function(event){
+  //store the element that was clicked in brush
+  console.log("event.target: ", event.target)
+  let brush = event.target
+  //save the
+  let brushColor = brush.classList[1]
+  let currentColor = brushColor
+  console.log("currentColor: ", currentColor)
+  let currentColorDisplayBox = document.getElementsByClassName('current-color')[0]
+  currentColorDisplayBox.classList.add(currentColor)
+}
+let paintBrushGroup = document.getElementsByClassName('paintbrush-group')[0]
+paintBrushGroup.addEventListener('click', saveCurrentColor)
 
 // Expand the dimensions of the pixel canvas.
 // Expand the palette with more colors. (i.e. red, orange, yellow, green, blue, purple, brown, gray, black, white, etc.)
