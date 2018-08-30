@@ -1,0 +1,50 @@
+/* ---------canvas and paint brushes--------------------------------*/
+.square {
+  height: 50px;
+  width: 50px;
+  border: 1px solid grey;
+}
+
+.brush{
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  background-color: red;
+}
+
+.current-color-container{
+  padding: 15px;
+}
+
+.current-color {
+  background-color: white;
+  height: 30px;
+  width: 90px;
+  border: 1px solid grey;
+}
+
+/*---------------------canvas and paint brushes end-------------------*/
+
+/*----------------------------background colors--------------------------*/
+
+.red{
+  background-color: red;
+}
+
+.black{
+  background-color: black;
+}
+
+/*-------------------------------pixels ------------------------------*/
+
+/* .pixelOff{
+  background-color: white;
+}
+
+.square-red{
+  background-color: red;
+}
+
+.square-black{
+  background-color: black;
+} */
