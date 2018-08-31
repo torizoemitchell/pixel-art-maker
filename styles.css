@@ -1,7 +1,7 @@
 /* ---------canvas and paint brushes--------------------------------*/
 .square {
-  height: 50px;
-  width: 50px;
+  height: 20px;
+  width: 20px;
   border: 1px solid grey;
 }
 
@@ -14,11 +14,14 @@
   padding: 15px;
 }
 
-.current-color {
-  background-color: white;
+#currentColorDisplayBox{
   height: 30px;
   width: 90px;
   border: 1px solid grey;
+}
+
+.default-color {
+  background-color: white;
 }
 
 .current-color-test{
