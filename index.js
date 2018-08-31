@@ -20,6 +20,8 @@ for (let j = 0; j < rowNum; j++) {
   canvas.appendChild(row)
 }
 
+canvas.classList.add('canvas-styles')
+
 // // Add an event listener to each div so when clicked the background turns red.
 // let turnRed = function(event){
 //   let square = event.target

@@ -12,6 +12,7 @@
 
 .current-color-container{
   padding: 15px;
+  text-align: center;
 }
 
 #currentColorDisplayBox{
@@ -28,6 +29,25 @@
   height: 30px;
   width: 90px;
   border: 1px solid grey;
+}
+
+.canvas-styles{
+  border: black solid 5px;
+  box-shadow: 20px 20px 10px grey;
+  margin: auto;
+
+}
+
+.paintbrush-group{
+  text-align: center;
+}
+
+h1{
+  text-align: center;
+}
+
+h4{
+  text-align: center;
 }
 
 /*---------------------canvas and paint brushes end-------------------*/
