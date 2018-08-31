@@ -8,8 +8,6 @@
 .brush{
   height: 30px;
   width: 30px;
-  border-radius: 50%;
-  background-color: red;
 }
 
 .current-color-container{
@@ -23,18 +21,92 @@
   border: 1px solid grey;
 }
 
+.current-color-test{
+  height: 30px;
+  width: 90px;
+  border: 1px solid grey;
+}
+
 /*---------------------canvas and paint brushes end-------------------*/
 
 /*----------------------------background colors--------------------------*/
 
 .red{
   background-color: red;
+  /* height: 30px;
+  width: 90px; */
+  border: 1px solid grey;
 }
 
 .black{
   background-color: black;
+  /* height: 30px;
+  width: 90px; */
+  border: 1px solid grey;
 }
 
+.pink{
+  background-color: deeppink;
+  /* height: 30px;
+  width: 90px; */
+  border: 1px solid grey;
+}
+
+.orange{
+  background-color: darkorange;
+  /* height: 30px;
+  width: 90px; */
+  border: 1px solid grey;
+}
+
+.yellow{
+  background-color: yellow;
+  /* height: 30px;
+  width: 90px; */
+  border: 1px solid grey;
+}
+
+.green{
+  background-color: limegreen;
+  /* height: 30px;
+  width: 90px; */
+  border: 1px solid grey;
+}
+
+.cyan{
+  background-color: cyan;
+  /* height: 30px;
+  width: 90px; */
+  border: 1px solid grey;
+}
+
+.blue{
+  background-color: blue;
+  /* height: 30px;
+  width: 90px; */
+  border: 1px solid grey;
+}
+
+.purple{
+  background-color: purple;
+  /* height: 30px;
+  width: 90px; */
+  border: 1px solid grey;
+}
+
+.white{
+  background-color: white;
+  /* height: 30px;
+  width: 90px; */
+  border: 1px solid grey;
+}
+
+.brown{
+  background-color: saddlebrown;
+  /* height: 30px;
+  width: 90px; */
+  border: 1px solid grey;
+}
 /*-------------------------------pixels ------------------------------*/
 
 /* .pixelOff{
